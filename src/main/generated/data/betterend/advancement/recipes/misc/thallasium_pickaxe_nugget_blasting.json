@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_thallasium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:thallasium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:thallasium_pickaxe_nugget_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thallasium_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:thallasium_pickaxe_nugget_blasting"
+    ]
+  }
+}

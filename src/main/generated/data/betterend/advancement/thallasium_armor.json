@@ -1,0 +1,65 @@
+{
+  "parent": "betterend:thallasium_plate",
+  "criteria": {
+    "got_thallasium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:thallasium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_thallasium_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:thallasium_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_thallasium_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:thallasium_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_thallasium_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:thallasium_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.thallasium_armor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "betterend:thallasium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.betterend.thallasium_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_thallasium_helmet",
+      "got_thallasium_chestplate",
+      "got_thallasium_leggings",
+      "got_thallasium_boots"
+    ]
+  ]
+}

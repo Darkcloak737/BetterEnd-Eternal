@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_metal_slabs",
+  "key": {
+    "#": [
+      {
+        "item": "betterend:thallasium_block"
+      },
+      {
+        "item": "betterend:thallasium_tile"
+      }
+    ]
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "betterend:thallasium_slab"
+  }
+}

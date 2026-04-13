@@ -1,0 +1,32 @@
+{
+  "parent": "betterend:aeternium_hammer_head",
+  "criteria": {
+    "got_aeternium_hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.aeternium_hammer.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "betterend:aeternium_hammer"
+    },
+    "title": {
+      "translate": "advancements.betterend.aeternium_hammer.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_aeternium_hammer"
+    ]
+  ]
+}

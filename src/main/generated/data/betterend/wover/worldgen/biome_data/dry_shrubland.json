@@ -1,0 +1,21 @@
+{
+  "type": "betterend:biome",
+  "biome": "betterend:dry_shrubland",
+  "fogDensity": 1.2,
+  "generation_data": {
+    "intended_placement": "wover:is_end/land"
+  },
+  "has_caves": true,
+  "surface": {
+    "alt": {
+      "Name": "betterend:rutiscus"
+    },
+    "floor_rule": true,
+    "top": {
+      "Name": "betterend:rutiscus"
+    },
+    "under": {
+      "Name": "minecraft:end_stone"
+    }
+  }
+}

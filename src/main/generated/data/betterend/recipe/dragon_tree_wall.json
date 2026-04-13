@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wall",
+  "key": {
+    "*": {
+      "item": "betterend:dragon_tree_planks"
+    },
+    "|": {
+      "item": "betterend:dragon_tree_fence"
+    }
+  },
+  "pattern": [
+    "* *",
+    "|||"
+  ],
+  "result": {
+    "count": 6,
+    "id": "betterend:dragon_tree_wall"
+  }
+}

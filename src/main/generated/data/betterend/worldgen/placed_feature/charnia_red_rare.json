@@ -1,0 +1,29 @@
+{
+  "feature": {
+    "type": "betterend:charnia_feature",
+    "config": {
+      "chance": 1,
+      "radius": 6,
+      "raw_heightmap": true,
+      "state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "betterend:charnia_red"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "feature": {
+    "type": "betterend:hydralux_feature",
+    "config": {
+      "radius": 5
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 5,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

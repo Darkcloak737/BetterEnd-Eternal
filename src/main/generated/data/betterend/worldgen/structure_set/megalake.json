@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1890982538,
+    "separation": 1,
+    "spacing": 4
+  },
+  "structures": [
+    {
+      "structure": "betterend:megalake",
+      "weight": 1
+    },
+    {
+      "structure": "betterend:megalake_small",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:stick"
+  },
+  "base": {
+    "item": "betterend:thallasium_pickaxe_head"
+  },
+  "result": {
+    "count": 1,
+    "id": "betterend:thallasium_pickaxe"
+  },
+  "template": {
+    "item": "betterend:handle_attachment_smithing_template"
+  }
+}

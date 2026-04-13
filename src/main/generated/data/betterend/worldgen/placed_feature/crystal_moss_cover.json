@@ -1,0 +1,34 @@
+{
+  "feature": {
+    "type": "minecraft:multiface_growth",
+    "config": {
+      "block": "betterend:crystal_moss_cover",
+      "can_be_placed_on": [
+        "betterend:crystal_moss",
+        "minecraft:end_stone"
+      ],
+      "can_place_on_ceiling": true,
+      "can_place_on_floor": true,
+      "can_place_on_wall": true,
+      "chance_of_spreading": 1.0,
+      "search_range": 20
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 256,
+        "min_inclusive": 16
+      }
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

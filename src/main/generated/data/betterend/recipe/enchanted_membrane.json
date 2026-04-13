@@ -1,0 +1,34 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "east": {
+      "item": {
+        "item": "betterend:crystal_shards"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "betterend:crystal_shards"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "betterend:crystal_shards"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "betterend:crystal_shards"
+      }
+    }
+  },
+  "input": {
+    "item": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "betterend:enchanted_membrane"
+  },
+  "time": 75
+}

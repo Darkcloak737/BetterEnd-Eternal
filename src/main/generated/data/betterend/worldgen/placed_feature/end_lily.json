@@ -1,0 +1,21 @@
+{
+  "feature": {
+    "type": "betterend:end_lily_feature",
+    "config": {
+      "radius": 6
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 10,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

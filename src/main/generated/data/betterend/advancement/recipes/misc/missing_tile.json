@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purpur_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purpur_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:missing_tile"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_violecite_violecite_bricks_violecite_t": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:violecite"
+          },
+          {
+            "items": "betterend:violecite_bricks"
+          },
+          {
+            "items": "betterend:violecite_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_violecite_violecite_bricks_violecite_t",
+      "has_purpur_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:missing_tile"
+    ]
+  }
+}

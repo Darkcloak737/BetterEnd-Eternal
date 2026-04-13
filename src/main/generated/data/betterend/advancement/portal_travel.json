@@ -1,0 +1,26 @@
+{
+  "parent": "betterend:portal_on",
+  "criteria": {
+    "travel": {
+      "trigger": "betterend:portal_travel"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.portal_travel.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.betterend.portal_travel.title"
+    }
+  },
+  "requirements": [
+    [
+      "travel"
+    ]
+  ]
+}

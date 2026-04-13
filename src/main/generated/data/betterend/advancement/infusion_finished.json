@@ -1,0 +1,26 @@
+{
+  "parent": "betterend:infusion",
+  "criteria": {
+    "finished": {
+      "trigger": "betterend:infusion_finished"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.infusion_finished.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "advancements.betterend.infusion_finished.title"
+    }
+  },
+  "requirements": [
+    [
+      "finished"
+    ]
+  ]
+}

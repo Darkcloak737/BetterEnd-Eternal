@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "betterend:sandy_jadestone_pillar"
+    },
+    "S": {
+      "item": "betterend:sandy_jadestone_slab"
+    }
+  },
+  "pattern": [
+    "S",
+    "#",
+    "S"
+  ],
+  "result": {
+    "count": 2,
+    "id": "betterend:sandy_jadestone_pedestal"
+  }
+}

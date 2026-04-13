@@ -1,0 +1,29 @@
+{
+  "feature": {
+    "type": "betterend:single_plant_feature",
+    "config": {
+      "chance": 1,
+      "radius": 5,
+      "raw_heightmap": true,
+      "state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "betterend:vaiolush_fern"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 5,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

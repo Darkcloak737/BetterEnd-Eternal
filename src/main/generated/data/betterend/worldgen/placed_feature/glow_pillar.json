@@ -1,0 +1,21 @@
+{
+  "feature": {
+    "type": "betterend:glow_pillar_feature",
+    "config": {
+      "radius": 9
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 1,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

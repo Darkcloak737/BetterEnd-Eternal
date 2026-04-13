@@ -1,0 +1,20 @@
+{
+  "type": "betterend:biome",
+  "biome": "betterend:crystal_mountains",
+  "generation_data": {
+    "intended_placement": "wover:is_end/land"
+  },
+  "has_caves": true,
+  "surface": {
+    "alt": {
+      "Name": "betterend:crystal_moss"
+    },
+    "floor_rule": true,
+    "top": {
+      "Name": "betterend:crystal_moss"
+    },
+    "under": {
+      "Name": "minecraft:end_stone"
+    }
+  }
+}

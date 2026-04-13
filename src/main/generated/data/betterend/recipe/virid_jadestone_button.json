@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "end_stone_buttons",
+  "ingredients": [
+    {
+      "item": "betterend:virid_jadestone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "betterend:virid_jadestone_button"
+  }
+}

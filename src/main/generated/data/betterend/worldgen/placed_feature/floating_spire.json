@@ -1,0 +1,18 @@
+{
+  "feature": {
+    "type": "betterend:floating_spire",
+    "config": {}
+  },
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

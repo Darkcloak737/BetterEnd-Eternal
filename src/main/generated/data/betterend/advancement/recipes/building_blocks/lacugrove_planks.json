@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lacugrove_log_lacugrove_bark_lacugrove": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:lacugrove_log"
+          },
+          {
+            "items": "betterend:lacugrove_bark"
+          },
+          {
+            "items": "betterend:lacugrove_stripped_log"
+          },
+          {
+            "items": "betterend:lacugrove_stripped_bark"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:lacugrove_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lacugrove_log_lacugrove_bark_lacugrove"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:lacugrove_planks"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "feature": {
+    "type": "betterend:lanceleaf_feature",
+    "config": {
+      "radius": 7
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

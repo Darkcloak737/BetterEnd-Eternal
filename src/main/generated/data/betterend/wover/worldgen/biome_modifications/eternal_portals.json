@@ -1,0 +1,29 @@
+{
+  "biome_tags": [
+    "betterend:has_structure/eternal_portal"
+  ],
+  "predicate": {
+    "type": "wover:not",
+    "predicate": {
+      "type": "wover:or",
+      "predicates": [
+        {
+          "type": "wover:is_namespace",
+          "namespace": "minecraft"
+        },
+        {
+          "type": "wover:is_namespace",
+          "namespace": "betterend"
+        },
+        {
+          "type": "wover:location_path_contains",
+          "needle": "mountain"
+        },
+        {
+          "type": "wover:location_path_contains",
+          "needle": "lake"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "betterend:portal",
+  "criteria": {
+    "turn_on": {
+      "trigger": "betterend:portal_on"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.portal_on.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "betterend:eternal_crystal"
+    },
+    "title": {
+      "translate": "advancements.betterend.portal_on.title"
+    }
+  },
+  "requirements": [
+    [
+      "turn_on"
+    ]
+  ]
+}

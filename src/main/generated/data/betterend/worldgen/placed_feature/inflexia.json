@@ -1,0 +1,29 @@
+{
+  "feature": {
+    "type": "betterend:single_plant_feature",
+    "config": {
+      "chance": 3,
+      "radius": 7,
+      "raw_heightmap": false,
+      "state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "betterend:inflexia"
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 16,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

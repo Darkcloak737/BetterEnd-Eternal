@@ -1,0 +1,59 @@
+{
+  "parent": "betterend:enter_end",
+  "criteria": {
+    "armored": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:elytra_armored"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "crystalite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:elytra_crystalite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "vanilla": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:elytra"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.all_elytras.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "betterend:elytra_crystalite"
+    },
+    "title": {
+      "translate": "advancements.betterend.all_elytras.title"
+    }
+  },
+  "requirements": [
+    [
+      "vanilla"
+    ],
+    [
+      "crystalite"
+    ],
+    [
+      "armored"
+    ]
+  ]
+}

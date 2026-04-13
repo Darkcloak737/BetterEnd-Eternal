@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_tile",
+  "key": {
+    "#": {
+      "item": "betterend:smaragdant_crystal_bricks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "id": "betterend:smaragdant_crystal_polished"
+  }
+}

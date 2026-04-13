@@ -1,0 +1,75 @@
+{
+  "parent": "betterend:aeternium_plate",
+  "criteria": {
+    "got_aeternium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.aeternium_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "betterend:aeternium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.betterend.aeternium_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_aeternium_helmet"
+    ],
+    [
+      "got_aeternium_chestplate"
+    ],
+    [
+      "got_aeternium_leggings"
+    ],
+    [
+      "got_aeternium_boots"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

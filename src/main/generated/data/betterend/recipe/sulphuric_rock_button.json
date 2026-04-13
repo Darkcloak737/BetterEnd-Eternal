@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "end_stone_buttons",
+  "ingredients": [
+    {
+      "item": "betterend:sulphuric_rock"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "betterend:sulphuric_rock_button"
+  }
+}

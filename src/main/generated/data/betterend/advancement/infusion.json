@@ -1,0 +1,32 @@
+{
+  "parent": "betterend:enter_end",
+  "criteria": {
+    "infusion_pedestal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:infusion_pedestal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.infusion.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "betterend:infusion_pedestal"
+    },
+    "title": {
+      "translate": "advancements.betterend.infusion.title"
+    }
+  },
+  "requirements": [
+    [
+      "infusion_pedestal"
+    ]
+  ]
+}

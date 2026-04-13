@@ -1,0 +1,36 @@
+{
+  "parent": "betterend:terminite_anvil",
+  "criteria": {
+    "got_aeternium_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.aeternium_anvil.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "betterend:aeternium_anvil"
+    },
+    "title": {
+      "translate": "advancements.betterend.aeternium_anvil.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_aeternium_anvil"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

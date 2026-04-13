@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_bricks",
+  "key": {
+    "#": {
+      "item": "betterend:virid_jadestone"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "id": "betterend:virid_jadestone_bricks"
+  }
+}

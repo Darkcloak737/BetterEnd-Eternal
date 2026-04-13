@@ -1,0 +1,91 @@
+{
+  "parent": "betterend:aeternium_hammer",
+  "criteria": {
+    "got_aeternium_axe_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_axe_head"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_hoe_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_hoe_head"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_pickaxe_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_pickaxe_head"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_shovel_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_shovel_head"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_aeternium_sword_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:aeternium_sword_blade"
+          },
+          {
+            "items": "betterend:aeternium_sword_handle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.aeternium_tool_head.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "betterend:aeternium_pickaxe_head"
+    },
+    "title": {
+      "translate": "advancements.betterend.aeternium_tool_head.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_aeternium_pickaxe_head"
+    ],
+    [
+      "got_aeternium_hoe_head"
+    ],
+    [
+      "got_aeternium_axe_head"
+    ],
+    [
+      "got_aeternium_shovel_head"
+    ],
+    [
+      "got_aeternium_sword_head"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

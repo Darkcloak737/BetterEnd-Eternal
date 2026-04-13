@@ -1,0 +1,76 @@
+{
+  "parent": "betterend:terminite_tool_head",
+  "criteria": {
+    "got_terminite_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:terminite_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_terminite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:terminite_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_terminite_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:terminite_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_terminite_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:terminite_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "got_terminite_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:terminite_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.betterend.terminite_tool.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "betterend:terminite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.betterend.terminite_tool.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_terminite_pickaxe",
+      "got_terminite_hoe",
+      "got_terminite_axe",
+      "got_terminite_shovel",
+      "got_terminite_sword"
+    ]
+  ]
+}

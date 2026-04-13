@@ -1,0 +1,30 @@
+{
+  "feature": {
+    "type": "betterend:wall_plant_feature",
+    "config": {
+      "radius": 6,
+      "state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "betterend:ruscus",
+          "Properties": {
+            "facing": "north"
+          }
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 10,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

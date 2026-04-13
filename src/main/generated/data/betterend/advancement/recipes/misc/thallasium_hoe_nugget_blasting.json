@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_thallasium_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "betterend:thallasium_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:thallasium_hoe_nugget_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thallasium_hoe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:thallasium_hoe_nugget_blasting"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "biome": "betterend:painted_mountains",
+  "priority": 1000,
+  "ruleSource": {
+    "type": "wover:switch_rule",
+    "collection": [
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "minecraft:end_stone"
+        }
+      },
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "betterend:flavolite"
+        }
+      },
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "betterend:violecite"
+        }
+      }
+    ],
+    "selector": {
+      "type": "betterend:vertical_band",
+      "band_scale": 4.0,
+      "noise": "minecraft:clay_bands_offset",
+      "offset_scale": 4.0,
+      "xz_scale": 6.0,
+      "y_scale": 1.3
+    }
+  }
+}

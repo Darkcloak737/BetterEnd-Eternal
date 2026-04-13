@@ -1,0 +1,18 @@
+{
+  "feature": {
+    "type": "betterend:fallen_pillar",
+    "config": {}
+  },
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

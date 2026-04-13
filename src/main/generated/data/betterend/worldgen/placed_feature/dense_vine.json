@@ -1,0 +1,31 @@
+{
+  "feature": {
+    "type": "betterend:vine_feature",
+    "config": {
+      "max_length": 24,
+      "radius": 6,
+      "state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "betterend:dense_vine",
+          "Properties": {
+            "shape": "bottom"
+          }
+        }
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 3,
+        "min_inclusive": 0
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

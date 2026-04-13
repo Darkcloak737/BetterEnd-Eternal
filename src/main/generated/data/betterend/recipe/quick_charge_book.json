@@ -1,0 +1,62 @@
+{
+  "type": "betterend:infusion",
+  "catalysts": {
+    "east": {
+      "item": {
+        "item": "minecraft:quartz"
+      }
+    },
+    "north": {
+      "item": {
+        "item": "betterend:enchanted_petal"
+      }
+    },
+    "north_east": {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "north_west": {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "south": {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "south_east": {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "south_west": {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "west": {
+      "item": {
+        "item": "minecraft:quartz"
+      }
+    }
+  },
+  "group": "enchantment",
+  "input": {
+    "item": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:quick_charge": 1
+        }
+      }
+    }
+  },
+  "time": 300
+}
