@@ -1,23 +1,38 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Fabric
+run/
+logs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.settings/
+.classpath
+.project
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Compiled
+*.class
+*.log
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
