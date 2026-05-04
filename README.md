@@ -4,7 +4,7 @@ A complete port of BetterEnd to Minecraft 1.21.1, adding new biomes, blocks, ite
 
 ![BetterEnd Banner](https://via.placeholder.com/800x200?text=Add+Your+Screenshot+Here)
 
-##Features
+#Features
 
 - **New End Biomes** - Over 20 unique biomes with custom terrain generation
 - **Beautiful Sky** - Dynamic purple nebula sky with rotating star fields
@@ -14,7 +14,7 @@ A complete port of BetterEnd to Minecraft 1.21.1, adding new biomes, blocks, ite
 - **Plants & Trees** - Dozens of new End plants, trees, and decorative blocks
 - **Organized Creative Tabs** - Three properly organized tabs (Items, Blocks, Nature)
 
-##Installation
+#Installation
 
 ### Requirements
 - **Minecraft** 1.21.1
@@ -30,7 +30,7 @@ A complete port of BetterEnd to Minecraft 1.21.1, adding new biomes, blocks, ite
 4. Place the `.jar` file in your `mods/` folder
 5. Launch Minecraft!
 
-##Bug Reports
+#Bug Reports
 
 Found a bug? Please report it on our [Issue Tracker](https://github.com/Darkcloak737/BetterEnd-Eternal/issues)!
 
@@ -39,7 +39,7 @@ Found a bug? Please report it on our [Issue Tracker](https://github.com/Darkcloa
 - Include your Minecraft version, mod version, and crash log
 - List any other mods you have installed
 
-##Building from Source
+#Building from Source
 
 ```bash
 git clone https://github.com/YourUsername/BetterEnd.git
@@ -49,7 +49,7 @@ cd BetterEnd
 
 The compiled `.jar` will be in `build/libs/`
 
-##Changelog
+#Changelog
 
 ### 1.0.0 - Initial 1.21.1 Port (May 2026)
 - ✅ Fixed sky renderer for 1.21.1 (camera rotation and shader updates)
@@ -59,7 +59,7 @@ The compiled `.jar` will be in `build/libs/`
 - ✅ Updated all dependencies to latest stable versions
 - ✅ Full compatibility with Fabric 1.21.1
 
-##Credits
+#Credits
 
 **Original BetterEnd Mod:**
 - Created by [Paulevs](https://github.com/paulevsGitch/BetterEnd)
@@ -74,7 +74,7 @@ The compiled `.jar` will be in `build/libs/`
 - Ported by [YourName]
 - Bug fixes and modernization for 1.21.1
 
-## 🔗 Links
+#Links
 
 - [Modrinth](https://modrinth.com/mod/betterend-eternal)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/betterend-eternal)
