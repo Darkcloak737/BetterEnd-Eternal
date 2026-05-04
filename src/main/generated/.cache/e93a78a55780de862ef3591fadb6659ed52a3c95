@@ -1,0 +1,6 @@
+// 1.21.1	2026-04-20T17:04:39.723167	Better End/betterend:lakes (Placed Features)
+fc4af4d4acb3f4082a475955c9e5652b8ea4a408 data/betterend/worldgen/placed_feature/sulphuric_lake.json
+a73bd31ecb896859031aa473a1ee62781061a9c0 data/betterend/worldgen/placed_feature/end_lake_rare.json
+47e1850c7bebba3e319771232516b51a091e6287 data/betterend/worldgen/placed_feature/end_lake_normal.json
+862f66787fd6c4f6744960af4be3e44282363d23 data/betterend/worldgen/placed_feature/desert_lake.json
+3691d89ef3968029ab0f9765093f177757df59a5 data/betterend/worldgen/placed_feature/end_lake.json

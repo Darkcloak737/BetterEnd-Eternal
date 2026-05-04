@@ -1,0 +1,7 @@
+// 1.21.1	2026-04-20T17:04:39.715592	Better End/betterend:default (Structure Pools)
+84923f6f9b405cc79fbf21209b5abe483365a5db data/betterend/worldgen/template_pool/village/decorations.json
+8f61e27fc3bc91dc2c87343e36ea8f82e495b7cb data/betterend/worldgen/template_pool/village/center_piece.json
+b45f158a1cdd0864e900028093dd9d0dd37bcae9 data/betterend/worldgen/template_pool/village/streets.json
+ff793e3a41d3bc2db07ea1f61fd7ecd8794d0fe3 data/betterend/worldgen/template_pool/village/terminators.json
+a4d1e6a9acc6aa0d4a49b3489f426da48903d961 data/betterend/worldgen/template_pool/village/houses.json
+037b321949497d286d68168e7182c1d98190834d data/betterend/worldgen/template_pool/village/street_decorations.json

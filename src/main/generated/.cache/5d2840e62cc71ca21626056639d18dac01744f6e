@@ -1,0 +1,6 @@
+// 1.21.1	2026-04-20T17:04:39.722229	Better End/betterend:default (Structure Processors)
+669986e17bfe73531fbca27ca2d4a1f0a8a45554 data/betterend/worldgen/processor_list/weather_10_percent.json
+010fc043fba529f89ccc5749799dc9b44ac26894 data/betterend/worldgen/processor_list/crying_10_percent.json
+c8541865344acba669d97a25b70cb5269b4c0340 data/betterend/worldgen/processor_list/crack_and_weather.json
+40a4a2ea91195ff978fa1fff0e7c164a26d7ba45 data/betterend/worldgen/processor_list/end_street.json
+a343457e935c95ec7a1a127fb8af9e55c7fd0e6d data/betterend/worldgen/processor_list/crack_20_percent.json

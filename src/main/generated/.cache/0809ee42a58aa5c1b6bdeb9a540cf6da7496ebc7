@@ -1,0 +1,16 @@
+// 1.21.1	2026-04-20T17:04:39.711367	Better End/betterend/AutoBiomeTagProvider (Tags for minecraft:worldgen/biome)
+ede20d88f1eb1f188aeb86b12f6504bb2daed1a4 data/betterend/tags/worldgen/biome/has_structure/mountain.json
+484ef5c59d9e28697ce51dbe87a101cd3ac53a0f data/betterend/tags/worldgen/biome/has_structure/giant_mossy_glowshroom.json
+9e2a3d3f98d28ed40e427c5355e4ff2026d5c57c data/wover/tags/worldgen/biome/is_end/highland.json
+f9836a8f26326c100d1c6906c6eee1047fbd05ae data/wover/tags/worldgen/biome/is_end/midland.json
+49d2fcb322338e6e6fe8b4228b60d08864790af8 data/wover/tags/worldgen/biome/is_end/small_island.json
+a2c3af66eaf88c0c3786b1d61f2e97f6d97770c4 data/betterend/tags/worldgen/biome/has_structure/megalake_small.json
+49d2fcb322338e6e6fe8b4228b60d08864790af8 data/betterend/tags/worldgen/biome/has_structure/giant_ice_star.json
+8676f875f623393e67d891cd4d53c8d102fd99cb data/betterend/tags/worldgen/biome/is_end_cave.json
+0620168e8c8bc5daeebcb7e296ae9e4727d696f4 data/betterend/tags/worldgen/biome/has_structure/eternal_portal.json
+26e22ea214093ac08f6cb5a6c35ce0668b381718 data/betterend/tags/worldgen/biome/is_end/high_or_midland.json
+4150a1fb9f44e465b5289585e537461cfbe57375 data/betterend/tags/worldgen/biome/has_structure/painted_mountain.json
+d1849e54f7cc1b7a414d7c07871711abe6304339 data/betterend/tags/worldgen/biome/has_structure/end_village.json
+fa06612d9810e3d6b8bbc666dcb71dd7a0444661 data/betterend/tags/worldgen/biome/has_structure/megalake.json
+45e066651929cbc92d54d27f056baf0b4889e6c9 data/wover/tags/worldgen/biome/is_end/land.json
+8f6337e5dc45d6eb33dc2cf6e945829b9b4cb915 data/minecraft/tags/worldgen/biome/has_structure/end_city.json

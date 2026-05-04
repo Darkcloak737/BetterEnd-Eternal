@@ -1,0 +1,7 @@
+// 1.21.1	2026-04-20T17:04:39.695159	Better End/betterend:terrain (Configured Features)
+7d02fc884294c02562274ffd27e5a459a20b40c3 data/betterend/worldgen/configured_feature/umbrella_jungle_structures.json
+487b01eed78c618089b759143b02160b15cc26b7 data/betterend/worldgen/configured_feature/chorus_forest_structures.json
+f1314020bd20ce5006b68bb6946ed4a2a2dbf761 data/betterend/worldgen/configured_feature/foggy_mushroomland_structures.json
+1b2ef94d333c4109b3764263d0c566e519904854 data/betterend/worldgen/configured_feature/shadow_forest_structures.json
+46042be05ee33459466ec954c46ea95b69aeca21 data/betterend/worldgen/configured_feature/blossoming_spires_structures.json
+928fa52ded873b8a1a9818f5934fd22031423cae data/betterend/worldgen/configured_feature/lantern_woods_structures.json

@@ -1,0 +1,7 @@
+// 1.21.1	2026-04-20T17:04:39.71078	Better End/betterend:caves (Placed Features)
+7ed93562a4559cb2359979270192cffdf82cdbef data/betterend/worldgen/placed_feature/jade_cave_cave_populator.json
+a93236c890dd19304777d0603c0b69067e3089cf data/betterend/worldgen/placed_feature/empty_smaragdant_cave_cave_populator.json
+8b11111f21ce942b32feca2a3343a7317aa67b63 data/betterend/worldgen/placed_feature/empty_end_cave_cave_populator.json
+1f88ac5363b670fd8095691298e89c4461fe5c03 data/betterend/worldgen/placed_feature/lush_aurora_cave_cave_populator.json
+b021fbbc95ee2d623d3accfd7627130f9ee608b8 data/betterend/worldgen/placed_feature/empty_aurora_cave_cave_populator.json
+735eb2d403b59db702e4cb3684cc307d237e74ba data/betterend/worldgen/placed_feature/lush_smaragdant_cave_cave_populator.json

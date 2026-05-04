@@ -27,6 +27,7 @@ public class EndBiomeModificationProvider extends WoverRegistryContentProvider<B
                 .allOf(
                         BiomePredicate.not(BiomePredicate.inNamespace(BetterEnd.C)),
                         BiomePredicate.anyOf(
+                                BiomePredicate.hasTag(CommonBiomeTags.IS_END_CENTER),
                                 BiomePredicate.hasTag(CommonBiomeTags.IS_END_BARRENS),
                                 BiomePredicate.hasTag(CommonBiomeTags.IS_END_MIDLAND),
                                 BiomePredicate.hasTag(CommonBiomeTags.IS_END_HIGHLAND)

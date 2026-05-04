@@ -1,0 +1,48 @@
+---
+name: Bug Report
+about: Report a bug in BetterEnd
+title: '[BUG] '
+labels: bug
+assignees: ''
+---
+
+DESCRIBE THE BUG
+A clear and concise description of what the bug is.
+
+TO REPRODUCE
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '...'
+3. Do '...'
+4. See error
+
+EXPECTED BEHAVIOR
+A clear description of what you expected to happen.
+
+SCREENSHOTS
+If applicable, add screenshots to help explain your problem.
+
+ENVIRONMENTS
+Please complete the following information:
+- Minecraft Version: [e.g. 1.21.1]
+- BetterEnd Version: [e.g. 1.0.0]
+- BCLib Version: [e.g. 21.0.13]
+- Wover Version: [e.g. 21.0.13]
+- Fabric API Version: [e.g. 0.100.0]
+- Fabric Loader Version: [e.g. 0.15.0]
+
+CRASH LOG
+If the game crashed, please upload the crash report:
+- Upload to https://mclo.gs/ or https://pastebin.com/
+- Paste the link here
+
+Crash log location: `.minecraft/crash-reports/`
+
+OTHER MODS
+List any other mods you have installed (especially if they modify the End dimension):
+- Mod Name 1
+- Mod Name 2
+- etc.
+
+ADDITIONAL CONTEXT
+Add any other context about the problem here.

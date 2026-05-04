@@ -1,0 +1,50 @@
+/locate biome betterend:dust_wastelands
+/locate biome betterend:empty_aurora_cave
+/locate biome betterend:empty_end_cave
+/locate biome betterend:empty_smaragdant_cave
+/locate biome betterend:foggy_mushroomland
+/locate biome betterend:glowing_grasslands
+/locate biome betterend:ice_starfield
+/locate biome betterend:jade_cave
+/setblock 7 68 25 minecraft:end_portal
+/kill @e[type=minecraft:ender_dragon]
+/locate structure betterend:end_village
+/tp @s -1312 ~ -960
+/setblock 14 66 20 minecraft:end_portal
+/tp @s -1312 ~ -960
+/gamemode survival
+/tp @s -1312 ~ -960
+/gamemode creative
+/place structure betterend:end_village
+/tp Player116 ~100 ~ ~100
+/tp Player116 ~1000 ~ ~1000
+/setblock 10 70 15 minecraft:end_portal
+/locate structure betterend:eternal_portal
+/tp @s -624 ~ 912
+/gamemode sp`
+/gamemode spectator
+/gamemode creative
+/locate structure betterend:giant_ice_star
+/summon tnt
+/setblock 4 70 6 minecraft:end_portal
+/locate structure betterend:end_village
+/tp @s 2368 ~ -1984
+/tp Player531 ~5000 ~ ~5000
+/locate structure betterend:end_village
+/tp @s 8480 ~ 3280
+/place structure betterend:end_village
+/setblock 78 83 303 minecraft:end_portal
+/locate structure minecraft:end_city
+/tp @s 2576 ~ 992
+/locate structure betterend:giant_ice_star
+/setblock 7 79 -6 minecraft:end_portal
+/locate biome betterend:ice_starfield
+/locate structure betterend:end_village
+/tp @s 1184 ~ -720
+/clear
+/locate structure betterend:painted_mountain
+/tp @s 1728 ~ -1344
+/locate structure betterend:mountain
+/tp @s 1200 ~ -960
+/locate structure betterend:giant_mossy_glowshroom
+/tp @s 1296 ~ -416

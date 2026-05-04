@@ -1,0 +1,14 @@
+// 1.21.1	2026-04-20T17:04:39.711142	Better End/betterend
+3da1c40e36ecd7172faabc0e1bd62c61a5328bd6 data/betterend/loot_table/chests/lantern_woods.json
+8ddf5483d38deeb2fc1acef44a7c4e95e9404a0a data/betterend/loot_table/gameplay/fishing/junk.json
+fff06108d65e5aa6e97e073fb07671081b7f934a data/betterend/loot_table/chests/biome.json
+c22072aa17c74e291229cf94f888fdb605551414 data/betterend/loot_table/chests/common.json
+65849af395e95b76c62b528ab2c920c37ec9cfbe data/betterend/loot_table/gameplay/fishing/fish.json
+92037e8d77092954048fd26d2088ebe6ab5d0eef data/betterend/loot_table/chests/shadow_forest.json
+797af657f5d9ba49181d74973c3e55a2c5393fac data/betterend/loot_table/chests/umbrella_jungle.json
+0d59e76558d0307d4f7fc69c0d82e5f424cb0ee5 data/betterend/loot_table/chests/end_village_template_loot.json
+6a022dff53cf0017ebcc8d6c2b151f3247210147 data/betterend/loot_table/chests/end_village_bonus_loot.json
+9b670bafd8ae994eb10bbe24349d04d32d34c58b data/betterend/loot_table/gameplay/fishing/treasure.json
+84e79f5f4dbb8093e5a5ca7c66c065a9c13967c2 data/betterend/loot_table/chests/chorus_forest.json
+66dddea4342ffd52e68d80a5a1527d18809bd8b8 data/betterend/loot_table/chests/foggy_mushroomland.json
+4c29eb77236186c9b4aefa2e5f482f28f75acda6 data/betterend/loot_table/chests/end_village_loot.json
