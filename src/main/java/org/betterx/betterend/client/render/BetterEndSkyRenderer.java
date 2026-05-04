@@ -7,6 +7,7 @@ import org.betterx.betterend.BetterEnd;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.*;
+import net.minecraft.client.Camera;
 import net.minecraft.client.renderer.FogRenderer;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.resources.ResourceLocation;
@@ -65,18 +66,25 @@ public class BetterEndSkyRenderer implements DimensionRenderingRegistry.SkyRende
 
     @Override
     public void render(WorldRenderContext context) {
-        if (context.world() == null || context.matrixStack() == null) {
+        if (context.world() == null) {
             return;
         }
 
         initialise();
 
         Matrix4f projectionMatrix = context.projectionMatrix();
-        PoseStack matrices = context.matrixStack();
+        PoseStack matrices = new PoseStack();
 
+        // Apply camera rotation correctly so the sky doesn't twist/roll
+        Camera camera = context.camera();
+        matrices.mulPose(new Quaternionf().rotationX(camera.getXRot() * ((float)Math.PI / 180F)));
+        matrices.mulPose(new Quaternionf().rotationY(camera.getYRot() * ((float)Math.PI / 180F) + (float)Math.PI));
+
+        // Adjusted speed multiplier (Original was 0.000017453292f, this is 10x slower)
+        float speedMultiplier = 0.0000017453292f;
         float time = ((context.world().getDayTime() + context
                 .tickCounter()
-                .getRealtimeDeltaTicks()) % 360000) * 0.000017453292f;
+                .getRealtimeDeltaTicks()) % 360000) * speedMultiplier;
         float time2 = time * 2;
         float time3 = time * 3;
 
@@ -214,9 +222,11 @@ public class BetterEndSkyRenderer implements DimensionRenderingRegistry.SkyRende
         RenderSystem.setShaderColor(r, g, b, a);
         buffer.bind();
         if (format == DefaultVertexFormat.POSITION) {
-            buffer.drawWithShader(matrices.last().pose(), matrix4f, GameRenderer.getPositionShader());
+            RenderSystem.setShader(GameRenderer::getPositionShader);
+            buffer.drawWithShader(matrices.last().pose(), matrix4f, RenderSystem.getShader());
         } else {
-            buffer.drawWithShader(matrices.last().pose(), matrix4f, GameRenderer.getPositionTexShader());
+            RenderSystem.setShader(GameRenderer::getPositionTexShader);
+            buffer.drawWithShader(matrices.last().pose(), matrix4f, RenderSystem.getShader());
         }
         VertexBuffer.unbind();
     }

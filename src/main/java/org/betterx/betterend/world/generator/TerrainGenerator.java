@@ -57,12 +57,13 @@ public class TerrainGenerator {
 
     public static void initNoise(long seed, BiomeSource biomeSource, Sampler sampler) {
         if (biomeSource instanceof BiomeSourceWithConfig bcl) {
-            if (bcl.getBiomeSourceConfig() instanceof WoverEndConfig config)
-                TerrainGenerator.config = config;
+            if (bcl.getBiomeSourceConfig() instanceof WoverEndConfig woverConfig) {
+                TerrainGenerator.config = woverConfig;
+            }
         }
 
-        if (config == null) {
-            throw new IllegalStateException("Biome source config is not set");
+        if (TerrainGenerator.config == null) {
+            TerrainGenerator.config = WoverEndConfig.DEFAULT;
         }
 
         RandomSource random = new LegacyRandomSource(seed);
@@ -74,7 +75,6 @@ public class TerrainGenerator {
         TERRAIN_BOOL_CACHE_MAP.clear();
         TerrainGenerator.biomeSource = biomeSource;
         TerrainGenerator.sampler = sampler;
-
     }
 
     public static void fillTerrainDensity(double[] buffer, int posX, int posZ, int scaleXZ, int scaleY, int maxHeight) {
@@ -87,14 +87,8 @@ public class TerrainGenerator {
 
         int x = posX / scaleXZ;
         int z = posZ / scaleXZ;
-        double distortion1 = noise1.eval(x * 0.1, z * 0.1) * 20 + noise2.eval(
-                x * 0.2,
-                z * 0.2
-        ) * 10 + noise1.eval(x * 0.4, z * 0.4) * 5;
-        double distortion2 = noise2.eval(x * 0.1, z * 0.1) * 20 + noise1.eval(
-                x * 0.2,
-                z * 0.2
-        ) * 10 + noise2.eval(x * 0.4, z * 0.4) * 5;
+        double distortion1 = noise1.eval(x * 0.1, z * 0.1) * 20 + noise2.eval(x * 0.2, z * 0.2) * 10 + noise1.eval(x * 0.4, z * 0.4) * 5;
+        double distortion2 = noise2.eval(x * 0.1, z * 0.1) * 20 + noise1.eval(x * 0.2, z * 0.2) * 10 + noise2.eval(x * 0.4, z * 0.4) * 5;
         double px = (double) x * scaleXZ + distortion1;
         double pz = (double) z * scaleXZ + distortion2;
 
@@ -195,14 +189,8 @@ public class TerrainGenerator {
         double px = (x >> 1) + 0.5;
         double pz = (z >> 1) + 0.5;
 
-        double distortion1 = noise1.eval(px * 0.1, pz * 0.1) * 20 + noise2.eval(px * 0.2, pz * 0.2) * 10 + noise1.eval(
-                px * 0.4,
-                pz * 0.4
-        ) * 5;
-        double distortion2 = noise2.eval(px * 0.1, pz * 0.1) * 20 + noise1.eval(px * 0.2, pz * 0.2) * 10 + noise2.eval(
-                px * 0.4,
-                pz * 0.4
-        ) * 5;
+        double distortion1 = noise1.eval(px * 0.1, pz * 0.1) * 20 + noise2.eval(px * 0.2, pz * 0.2) * 10 + noise1.eval(px * 0.4, pz * 0.4) * 5;
+        double distortion2 = noise2.eval(px * 0.1, pz * 0.1) * 20 + noise1.eval(px * 0.2, pz * 0.2) * 10 + noise2.eval(px * 0.4, pz * 0.4) * 5;
         px = px * SCALE_XZ + distortion1;
         pz = pz * SCALE_XZ + distortion2;
 
@@ -237,8 +225,7 @@ public class TerrainGenerator {
         if (level.dimension() == Level.END) {
             final ChunkGenerator chunkGenerator = levelStem.generator();
             if (chunkGenerator instanceof NoiseBasedChunkGenerator) {
-                Holder<NoiseGeneratorSettings> sHolder = ((NoiseBasedChunkGeneratorAccessor) chunkGenerator)
-                        .be_getSettings();
+                Holder<NoiseGeneratorSettings> sHolder = ((NoiseBasedChunkGeneratorAccessor) chunkGenerator).be_getSettings();
                 if (chunkGenerator.getBiomeSource() instanceof WoverEndBiomeSource bcl) {
                     BETargetChecker.class
                             .cast(sHolder.value())
@@ -248,7 +235,6 @@ public class TerrainGenerator {
                             .cast(sHolder.value())
                             .be_setTarget(false);
                 }
-
             }
             initNoise(
                     seed,
@@ -267,12 +253,10 @@ public class TerrainGenerator {
             int j = blockPos.getY() - 2;
             int k = blockPos.getZ();
 
-            BlockPos
-                    .betweenClosed(i - 2, j + 1, k - 2, i + 2, j + 3, k + 2)
+            BlockPos.betweenClosed(i - 2, j + 1, k - 2, i + 2, j + 3, k + 2)
                     .forEach((blockPosx) -> serverLevel.setBlock(blockPosx, Blocks.AIR.defaultBlockState(), BlockHelper.SET_OBSERV));
 
-            BlockPos
-                    .betweenClosed(i - 2, j, k - 2, i + 2, j, k + 2)
+            BlockPos.betweenClosed(i - 2, j, k - 2, i + 2, j, k + 2)
                     .forEach((blockPosx) -> serverLevel.setBlock(blockPosx, Blocks.OBSIDIAN.defaultBlockState(), BlockHelper.SET_OBSERV));
             info.cancel();
         }

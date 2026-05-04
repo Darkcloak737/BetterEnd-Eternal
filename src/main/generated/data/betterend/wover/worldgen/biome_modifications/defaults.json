@@ -29,6 +29,10 @@
         "predicates": [
           {
             "type": "wover:has_tag",
+            "biome_tag": "wover:is_end/center"
+          },
+          {
+            "type": "wover:has_tag",
             "biome_tag": "wover:is_end/barrens"
           },
           {
